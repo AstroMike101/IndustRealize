@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customer.css">
     <title>Customer</title>
 </head>
 <body>
-    <script src="main.js"></script>
-    <form action="">
-        <input type="text" id="contractorName" placeholder="Company Name">
-        <br>
-        <input type="text" id="contractorLocationCity" placeholder="City">
-        <br>
-        <input type="text" id="contractorLocationState" placeholder="State (ex. GA)">
-        <br>
-        <input type="number" id="contractorSearchRange" placeholder="Search Range">
-        <br>
-        <input type="number" id="contractorRate" placeholder="Per Hour Rate">
-        <br>
-    </form>
-    <button onclick="createContractor()">Click Me</button>
+  <script src="customer.js"></script>
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/guy.jpeg" alt="Avatar" style="width:300px;height:300px; border-radius: 25px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Lawn Care</p>
+            <p>Available from 8am-5pm Monday through Friday</p>
+            <br>
+            <label for="file">Goal Progress:</label>
+            <progress id="file" value="32" max="100"> 32% </progress>
+            <br>
+            <button onclick="changeText()" class="flip-card-button" id="flip-card-button"> Hire Me!</button>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
