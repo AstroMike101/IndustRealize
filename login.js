@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-  const loginForm = document.querySelector("#login");
+  const loginForm = document.querySelector("#sign_up_button");
   const createAccountForm = document.querySelector("#createAccount");
 
   document.querySelector("#linkCreateAccount").addEventListener("click", (e) => {
@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
     createAccountForm.classList.add("form--hidden");
   });
 
-  loginForm.addEventListener("submit", e => {
+  loginForm.addEventListener("click", e => {
     e.preventDefault();
-    location.href = "employee.html"
+    location.href = "./index.html";
   });
 });
 
