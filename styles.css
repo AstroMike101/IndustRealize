@@ -10,7 +10,7 @@ body {
     background-size: 400% 400%;
     animation: gradient 40s ease infinite;
     
-    font-family: cursive;
+    
 }
 a {
  text-decoration: none;
@@ -85,5 +85,37 @@ li {
     }
 }
 
+p { 
+    font-size:17px;
+}
+
+.mainDescription { 
+    /* display:flex;
+    width: 100vw;
+    height: 30vh;
+   line-height: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    border: #545454;
+    border-style: solid; */
+
+    
+    padding: 2rem 4rem;
+    width: 100vw;
+    line-height: 50px;
+    height: 50vh;
+    display: inline-block;
+    border: 3px solid #333333;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: lightgray;
+    position: relative;
 
 
+    
+    
+}
