@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customer.css">
     <title>Customer</title>
 </head>
 <body>
+  <script src="customer.js"></script>
+
     <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="images/handyman1.jpeg" alt="Avatar" style="width:300px;height:300px;">
+            <img src="images/guy.jpeg" alt="Avatar" style="width:300px;height:300px;">
           </div>
           <div class="flip-card-back">
             <h1>John Doe</h1>
-            <p>Architect & Engineer</p>
-            <p>We love that guy</p>
+            <p>Lawn Care</p>
+            <p>Available from 8am-5pm Monday through Friday</p>
+            <br>
+            <label for="file">Goal Progress:</label>
+            <progress id="file" value="32" max="100"> 32% </progress>
+            <br>
+            <button onclick="changeText()" class="flip-card-button" id="flip-card-button"> Hire me!</button>
           </div>
         </div>
       </div>
