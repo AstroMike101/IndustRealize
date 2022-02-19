@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   loginForm.addEventListener("submit", e => {
     e.preventDefault();
-    location.href = "index.html"
+    location.href = "employee.html"
   });
 });
 
