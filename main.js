@@ -85,3 +85,4 @@ function createCustomer() {
         console.log(customerArray);
 }
 
+console.log('bruh im sooooooooo HUNGRY AND TIRED');
