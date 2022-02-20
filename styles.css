@@ -163,3 +163,49 @@ p {
     color: white;
 
 }
+
+/* @keyframes logoAni {
+       
+       0% {
+           transform: translateX(180px) rotate(45deg);
+           height: 50px;
+           weight: 53px
+       }
+       50% {
+           transform: translateX(180px) rotate(45deg);
+           height: 40px;
+           weight: 43px
+       }
+
+       75% {
+           transform: translateX(180px) rotate(45deg);
+           height: 30px;
+           weight: 43px
+       }
+       100% {
+           transform: translateX(180px) rotate(45deg);
+           height: 25px;
+           weight: 28px
+       }
+   } */
+
+
+
+ /* .logoAni { 
+
+    animation: logoAni 5s infinite;
+   } */
+
+
+   .logoAni {
+    
+    width: 25px;
+    height: 25px;
+    
+    /* -webkit-animation:spin 4s ease-in 3;
+    -moz-animation:spin 4s ease-in 3; */
+    animation:spin 4s ease-in 1;
+}
+/* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } } */
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
