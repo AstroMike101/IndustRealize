@@ -91,6 +91,13 @@ border-radius: 5px;
 }
 
 
+.slogan {
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Cairo', sans-serif;
+    text-shadow: 10px 10px 32px black;
+
+}
 /*animation keyframe */
 @keyframes gradient {
     
@@ -132,6 +139,8 @@ p {
     background: lightgray;
     position: relative;
    
+
+
     
     
 }
