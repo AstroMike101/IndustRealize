@@ -6,9 +6,9 @@
    }
    body {
        /*animation */
-       background: linear-gradient(-45deg, #F8F7FF, #FED766, #EB8258, #545454, #4DA1A9);
+       /* background: linear-gradient(-45deg, #F8F7FF, #FED766, #EB8258, #545454, #4DA1A9); */
        background-size: 400% 400%;
-       animation: gradient 40s ease infinite;
+       /* animation: gradient 40s ease infinite; */
        
        
    }
@@ -44,6 +44,7 @@
    }
    /* NAVBAR MENU */
    .menu {
+
     display: flex;
     gap: 1em;
     font-size: 18px;
@@ -139,7 +140,7 @@
   .page {
     /* background-color: #4c9e9e; */
     padding-top: 25px;
-    opacity: 60%;
+    /* opacity: 60%; */
     flex-direction: column;
     position: relative;
     display: flex;
@@ -148,12 +149,13 @@
     font-family: 'Cairo', sans-serif;
     padding-bottom: 25px;
 
+
   }
 
   .page1 {
     /* background-color: #4c9e9e; */
  
-    opacity: 60%;
+    opacity: 80%;
     flex-direction: row;
     position: relative;
     display: flex;
@@ -247,3 +249,18 @@
       padding-left: 20px;
       list-style-type: circle;
   }
+  #background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.servicesTxt {
+  color: white;
+}
