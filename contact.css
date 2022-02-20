@@ -65,10 +65,17 @@ background-color: #4c9e9e;
  transition: 0.3s ease; 
 }
 
+<<<<<<< HEAD
 .controls { 
     margin-top: 40px;
     margin-left: 90px;
     margin-right: 90px;
+=======
+.controls {
+    margin-top: 40px;
+    margin-left:90px;
+    margin-right:90px;
+>>>>>>> 02a56df4c7af77f56600fc68334d1bace9540222
 }
 
 @keyframes gradient {
@@ -88,3 +95,6 @@ p {
     font-size:17px;
 }
 
+.label {
+  color: white;  
+}
