@@ -45,17 +45,22 @@ li {
  gap: 1em;
  font-size: 18px;
 }
+
+
 .menu li:hover {
- background-color: #4c9e9e;
+ background-color: gray;
+ text-decoration: none;
  border-radius: 5px;
  transition: 0.3s ease;
 }
 .menu li {
  padding: 5px 14px;
+ text-decoration: none;
 }
 /* DROPDOWN MENU */
 .services {
  position: relative; 
+ text-decoration: none;
 }
 
 .navBarLinks {
@@ -66,6 +71,11 @@ li {
  border-radius: 5px;
  padding: 10px;
  transition: 0.3s ease; 
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 
 .controls { 
