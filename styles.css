@@ -77,7 +77,31 @@ border-radius: 5px;
   width: 100%;
   height:100%;
 }
+.mainBox {
+    padding-top: 25px;
+    opacity: 60%;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    font-family: 'Cairo', sans-serif;
+    padding-bottom: 25px;
+}
+.pictures {
+    border-radius: 25px;
+    width: 700px; 
+    height: 300px; 
+    background-color: transparent;
+    color: white;
+}
 
+.slogan {
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Cairo', sans-serif;
+    text-shadow: 10px 10px 32px black;
+
+}
 /*animation keyframe */
 @keyframes gradient {
     
@@ -116,11 +140,12 @@ p {
     border: 3px solid #333333;
     font-size: 1rem;
     text-align: center;
-    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    /* border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%; */
     text-transform: uppercase;
     letter-spacing: 0.3ch;
-    background: whitesmoke;
+    background: lightgray;
     position: relative;
+   
 
 
     
